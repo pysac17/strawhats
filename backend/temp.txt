@@ -1,0 +1,37 @@
+Products placed on Shelf 1:
+Mixed Dal (Qty: 2) on row 1
+Football (Qty: 7) on row 1
+Mixed Dal (Qty: 2) on row 2
+Football (Qty: 7) on row 2
+Paneer (Qty: 1) on row 3
+Mixed Dal (Qty: 2) on row 3
+Football (Qty: 6) on row 3
+Paneer (Qty: 7) on row 4
+Mixed Dal (Qty: 2) on row 4
+Paneer (Qty: 7) on row 5
+Mixed Dal (Qty: 2) on row 5
+
+Products placed on Shelf 2:
+Paneer (Qty: 5) on row 1
+Mixed Dal (Qty: 4) on row 1
+Rajma (Qty: 18) on row 2
+Mixed Dal (Qty: 6) on row 2
+Sketchpen (Qty: 15) on row 3
+Rajma (Qty: 2) on row 3
+iPhone 15 (Qty: 20) on row 3
+Cricket Ball (Qty: 20) on row 3
+Lipstick (Qty: 20) on row 4
+Ball Pen (Qty: 20) on row 4
+Sketchpen (Qty: 5) on row 4
+
+Remaining space in each row (in cm²):
+Shelf 1, Row 1: 0.00 cm²
+Shelf 1, Row 2: 0.00 cm²
+Shelf 1, Row 3: 0.00 cm²
+Shelf 1, Row 4: 0.00 cm²
+Shelf 1, Row 5: 0.00 cm²
+Shelf 2, Row 1: 0.00 cm²
+Shelf 2, Row 2: 0.00 cm²
+Shelf 2, Row 3: 0.00 cm²
+Shelf 2, Row 4: 4760.00 cm²
+Shelf 2, Row 5: 6000.00 cm²

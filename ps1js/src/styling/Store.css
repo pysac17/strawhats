@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #left-column{
+    border: 2px solid #000;
+} */
+
+#customer-img {
+  height: 80%;
+  width: 180px;
+  position: relative;
+  top: 15px;
+}
+
+#seasonal-section{
+  height: 31vh;
+  width: 8vw;
+  border: 2px solid rgb(221, 221, 61);
+  cursor: pointer;
+}
+#cash-counter-section {
+  height: 31vh;
+  width: 8vw;
+  border: 2px solid rgb(221, 221, 61);
+}
+
+.counter-img {
+  height: 50px;
+  width: 60px;
+}
+
+#cash-counter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#clothing-section,
+#beauty-section,
+#medical-section,
+#bathroom-supplies-section,
+#stock-clearance,
+#sports-section,
+#stationary-section,
+#refrigerator-section {
+  height: 80px;
+  width: 19.9vw;
+  border: 2px solid rgb(221, 221, 61);
+  margin-left: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#clothing-section,
+#beauty-section,
+#medical-section,
+#bathroom-supplies-section{
+  border-radius: 0 0 20px 20px;
+}
+
+#stock-clearance,
+#sports-section,
+#stationary-section,
+#refrigerator-section {
+  border-radius: 20px 20px 0 0;
+}
+
+#refrigerator-section {
+  width: 16vw;
+}
+
+#stock-clearance{
+    width: 26.2vw;
+}
+
+#clothing-section {
+  width: 32.8vw;
+}
+
+#beauty-section {
+  width: 16vw;
+}
+
+#product-of-month {
+  height: 280px;
+  width: 80px;
+  border: 2px solid rgb(221, 221, 61);
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+#home-decor-section,
+#electronics-section {
+  /* position: absolute; */
+  height: 280px;
+  width: 35vw;
+  border: 2px solid rgb(221, 221, 61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5vw;
+  z-index: 999;
+  cursor: pointer;
+}
+#home-decor-section:hover,
+#stock-clearance:hover,
+#clothing-section:hover,
+#beauty-section:hover,
+#bathroom-supplies-section:hover,
+#stationary-section:hover,
+#sports-section:hover,
+#medical-section:hover,
+#refrigerator-section:hover, 
+#electronics-section:hover,
+#seasonal-section:hover,
+#groccery-section:hover,
+#bevrages-section:hover,
+#product-of-month:hover
+
+{
+  background-color: rgba(105, 105,105, 0.5)
+}
+
+#home-decor-section:hover{
+  cursor: pointer;
+
+}
+
+
+#electronics-section {
+  width: 28vw;
+  left: 57vw;
+}
+
+#groccery-section,
+#bevrages-section {
+  height: 44.9vh;
+  width: 8vw;
+  border: 2px solid rgb(221, 221, 61);
+  margin-left: 0.5vw;
+  cursor: pointer;
+}
+
+#bevrages-section {
+  margin-top: 0.5vw;
+}
+
+#shelves-details {
+  overflow: hidden;
+  padding: 30px;
+}
+
+/* .shelf-img {
+  display: block;
+  margin-right: auto;
+  height: 600px;
+  width: 500px;
+}
+ */
+.brown-t {
+  position: absolute;
+  bottom: -130px;
+  left: 110px;
+  height: 100px;
+  width: 100px;
+}
+
+.green-t {
+  position: absolute;
+  bottom: -130px;
+  left: 230px;
+  height: 100px;
+  width: 100px;
+}
+
+.orange-t {
+  position: absolute;
+  bottom: -130px;
+  left: 350px;
+  height: 100px;
+  width: 100px;
+}
+
+.blue-t {
+  position: absolute;
+  bottom: -250px;
+  left: 110px;
+  height: 100px;
+  width: 100px;
+}
+
+.white-t {
+  position: absolute;
+  bottom: -250px;
+  left: 230px;
+  height: 100px;
+  width: 100px;
+}
+
+.black-t {
+  position: absolute;
+  bottom: -250px;
+  left: 350px;
+  height: 100px;
+  width: 100px;
+}
+
+.white-s {
+  position: absolute;
+  bottom: -360px;
+  left: 110px;
+  height: 100px;
+  width: 100px;
+}
+
+.black-s {
+  position: absolute;
+  bottom: -360px;
+  left: 230px;
+  height: 100px;
+  width: 100px;
+}
+
+.blue-s {
+  position: absolute;
+  bottom: -360px;
+  left: 350px;
+  height: 100px;
+  width: 100px;
+}
+
+.blue-d {
+  position: absolute;
+  bottom: -480px;
+  left: 110px;
+  height: 100px;
+  width: 100px;
+}
+
+.black-d {
+  position: absolute;
+  bottom: -480px;
+  left: 230px;
+  height: 100px;
+  width: 100px;
+}
+
+.grey-d {
+  position: absolute;
+  bottom: -480px;
+  left: 350px;
+  height: 100px;
+  width: 100px;
+}
+
+.black-f {
+  position: absolute;
+  bottom: -580px;
+  left: 110px;
+  height: 100px;
+  width: 100px;
+}
+
+.beige-f {
+  position: absolute;
+  bottom: -580px;
+  left: 230px;
+  height: 100px;
+  width: 100px;
+}
+
+.brown-f {
+  position: absolute;
+  bottom: -580px;
+  left: 350px;
+  height: 100px;
+  width: 100px;
+}
+
+#center-column{
+    margin: 0 .5vw;
+}
+
+#center-center{
+    display: flex;
+    margin: 14.6vh 0;
+    padding-left: 100px;
+}
+
+#show-category{
+    width: 100vw;
+    height: 100vh;
+}
+
+#filter-section{
+    width: 20%;
+    height: 100%;
+    border: 2px solid #000;
+}
